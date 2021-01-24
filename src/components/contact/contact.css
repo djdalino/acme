@@ -25,7 +25,7 @@ p.objective {
   outline: none;
   border-color: #ebebeb;
   padding: 11px;
-  width: 150px;
+  max-width: 150px;
   color: white;
   align-self: center;
   margin-top: 40px;

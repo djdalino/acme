@@ -30,7 +30,7 @@ const Events = () => {
   return (
     <div className="event-container">
       <div className="container mx-auto">
-        <h1 className="upcoming-event">Upcoming Event</h1>
+        <h1 className="upcoming-event">Upcoming Events</h1>
         <p className="tagline">
           This needs a great tagline, but I'll fill it later
         </p>

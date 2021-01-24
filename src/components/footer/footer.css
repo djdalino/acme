@@ -1,0 +1,23 @@
+.footer-container {
+  background: #707070;
+  height: 100px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+  padding-top: 20px;
+  color: white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 250px;
+}
+
+.info {
+  color: white;
+  padding-top: 20px;
+}

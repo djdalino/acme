@@ -5,6 +5,7 @@ import Banner from "./components/banner/banner";
 import Insights from "./components/insights/insight";
 import Contact from "./components/contact/contactUs";
 import Event from "./components/events/events";
+import Footer from "./components/footer/footer";
 function App() {
   return (
     <React.Fragment>
@@ -13,6 +14,7 @@ function App() {
       <Insights />
       <Contact />
       <Event />
+      <Footer />
     </React.Fragment>
   );
 }

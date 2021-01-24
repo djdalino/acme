@@ -1,6 +1,8 @@
 import React from "react";
 import "./event.css";
+import logoImage from "../../images/acme/Mobile/mobile-logo-img.png";
 import EventBox from "./eventBox";
+
 const Events = () => {
   const eventsArr = [
     {
@@ -69,6 +71,9 @@ const Events = () => {
           line="Find out the best online resources to help with your Investment..."
           localtion="London England"
         /> */}
+      </div>
+      <div className="logoImg">
+      <img src={logoImage} alt="logo" />
       </div>
     </div>
   );

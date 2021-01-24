@@ -1,60 +1,105 @@
 .event-box {
   background-color: #1450d2;
   max-width: 400px;
-  padding: 12px;
+  padding: 20px;
   position: relative;
   margin-top: 25px;
   height: 300px;
+
 }
 .event-box-container {
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 28px;
+ 
+}
+
+p.line-1 {
+  font-size: 27px;
+  color: white;
+  margin-top: 75px;
+}
+p.line-2 {
+  color: white;
+}
+
+
+.event-container {
+  padding: 30px 0 30px;
+  height: 480px;
+  background: #eaecee;
+  overflow-x: hidden;
+}
+
+.get-more {
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  margin-top: 33px;
+  color: white;
+  border: 1px solid;
+  padding: 12px 35px;
+}
+
+a {
+  cursor: pointer;
+}
+
+p.line-3 {
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+  text-align: end;
+  padding-right: 11px;
+  width: 92%;
+  background-color: #eaecee;
+  right: -1px;
+  padding-top: 10px;
+  border-top-left-radius: 27px;
+}
+
+.event-location {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  background-color: #1450d2;
+  text-align: right;
+  width: 23px;
+  max-width: 445px;
+  left: 18px;
+  margin-left: 0;
+  overflow: hidden!important;
+  transform: skew(-38deg);
+  z-index: 9999999999!important;
 }
 
 .event-box-date {
   background-color: #001254;
   color: white;
   position: absolute;
-  padding: 15px;
+  padding: 15px 21px;
   top: -10px;
+  text-align: center;
 }
-p.line-1 {
-  font-size: 30px;
-  color: white;
-  margin-top: 70px;
-}
-p.line-2 {
-  color: white;
-}
-.event-location {
+
+.event-box::before {
+  content: "";
   position: absolute;
-  bottom: 0;
-  height: 50px;
-  background: white;
+  top: -10px;
+  height: 10px;
+  background-color: #03125473;
   text-align: right;
-  max-width: 400px;
-  margin-left: 40px;
-  transform: skew(-45deg);
-}
-
-.get-more {
-  padding: 10px;
-  background: transparent;
-  border-color: white;
-  outline: none;
-  margin-top: 33px;
-  color: white;
-}
-
-p.line-3 {
-  position: absolute;
-  bottom: 10px;
-  z-index: 1;
-  right: 20px;
-  font-size: 20px;
-  font-weight: 700;
-}
-.event-container {
-  margin: 30px 0 30px;
-  height: 480px;
+  width: 34px;
+  max-width: 445px;
+  left: 14px;
+  margin-left: 0;
+  overflow: hidden!important;
+  transform: skew(-41deg);
+  z-index: 0!important;
 }

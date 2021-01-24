@@ -51,7 +51,7 @@ li {
 .navbar-ul {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
   transition: all 0.5s linear;
   color: black;
   margin: 70px 0px 0px 50px;
@@ -60,7 +60,7 @@ li {
   text-decoration: none;
   color: black;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .navbar-ul a:hover {
   color: #2caeba;
@@ -115,6 +115,7 @@ li {
 .show-nav {
   transform: translate(0) !important;
   transition: all 0.5s ease;
+  overflow-x: hidden;
 }
 
 nav.navbar-wrapper.nav-change .navbar-logo h1 {

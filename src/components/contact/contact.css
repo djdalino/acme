@@ -20,13 +20,15 @@ p.objective {
   flex-direction: column;
   justify-content: center;
 }
+
 .contact-button {
   background-color: transparent;
   outline: none;
-  border-color: #ebebeb;
   padding: 11px;
   max-width: 150px;
   color: white;
   align-self: center;
   margin-top: 40px;
+  border: 1px solid;
+  padding: 10px 25px;
 }

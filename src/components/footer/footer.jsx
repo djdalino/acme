@@ -28,6 +28,27 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
+
+      <div className="footer-buttons">
+        <div className="but">
+          <div className="two-but">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term of Use</a>
+            </div>
+          <a href="#">Site Links</a>
+        </div>
+        <div className="full-but">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Insights</a>
+        <a href="#">Events</a>
+        <a href="#">Due Dilligence</a>
+        <a href="#">Contact Us</a>
+        </div>
+
+      </div>
+
     </div>
   );
 };

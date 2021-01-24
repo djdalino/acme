@@ -9,7 +9,7 @@ const ContactUs = () => {
           We help our partners deliver industry leading results with a
           commitment to excellencem, thought-provoking insights and experienced
           distribution. We are laser focused on our shared goal - helping
-          clients achieved their objectives
+          clients achieved their objectives.
         </p>
         <button className="contact-button">Contact Us</button>
       </div>

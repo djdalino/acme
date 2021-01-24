@@ -1,0 +1,29 @@
+.banner-container {
+  background: url(../../images/acme/banner.png) no-repeat center;
+  background-size: cover;
+  height: 505px;
+  width: 100%;
+}
+.banner-line {
+  height: 20px;
+  background-color: #001254;
+  margin-top: -10px;
+}
+.acme-platform {
+  font-size: 40px;
+  color: white;
+  width: 400px;
+}
+.acme-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.acme-text {
+  margin-top: 15px;
+}
+.acme-text p {
+  margin: 2px;
+  color: white;
+}

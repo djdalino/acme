@@ -1,0 +1,47 @@
+.event-box {
+  background-color: #1450d2;
+  width: 400px;
+  padding: 12px;
+  position: relative;
+  margin-top: 25px;
+  height: 300px;
+}
+.event-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-box-date {
+  background-color: #001254;
+  color: white;
+  position: absolute;
+  padding: 15px;
+  top: -10px;
+}
+p.line-1 {
+  font-size: 30px;
+  color: white;
+  margin-top: 70px;
+}
+p.line-2 {
+  color: white;
+}
+.event-location {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background: white;
+  text-align: right;
+  width: 400px;
+  margin-left: 40px;
+  transform: skew(-45deg);
+}
+
+.get-more {
+  padding: 10px;
+  background: transparent;
+  border-color: white;
+  outline: none;
+  margin-top: 33px;
+  color: white;
+}

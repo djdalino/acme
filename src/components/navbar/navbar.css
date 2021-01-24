@@ -1,0 +1,43 @@
+.logo {
+  z-index: 1000;
+}
+.logo-text {
+  width: 300px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #707070;
+}
+.research-text {
+  color: #009bfa;
+}
+.platform {
+  font-size: 40px;
+  color: #1450d2;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  align-items: flex-end;
+  height: 120px;
+  width: 100%;
+  justify-content: space-around;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+.mx-10 {
+  margin: 0 10px;
+}
